@@ -1,0 +1,20 @@
+{
+    "porta":91,
+    "producao": false,
+    "endereco_testes": "blabla@com.pt",
+    "dir_raiz": "/servidor_html/projeto/",
+    "url": "blabla.pt",
+    "diasCache": 0,
+    "diretorioLogs": "/../logs/",
+    "tls": true,
+    "couchdb": {
+        "ip": "127.0.0.1",
+        "protocolo": "http:",
+        "porta": 5984,
+        "db": {
+            "prod": "blabla_produtos",
+            "util": "blabla_utilizadores"
+        },
+        "qtd_por_pagina": 10
+    }
+}
