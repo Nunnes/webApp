@@ -17,7 +17,6 @@
             ["Barcos - Lanchas", 5, 6]
         ]
     },
-    
     {
          t:["Tecnologia", 0 ,1],
         st:[["Jogos - Consolas", 1, 2], 

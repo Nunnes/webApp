@@ -128,7 +128,7 @@ function loadHighlights(){
              
              for (highItem in highList) {
                 clone=a.cloneNode(true);
-                clone.getElementsByTagName("div")[0].style.background =  "transparent url(i/"+ highList[highItem][1] + ".jpg) no-repeat center" ;
+                clone.getElementsByTagName("div")[0].style.background =  "transparent url(../i/"+ highList[highItem][1] + ".jpg) no-repeat center" ;
                 clone.getElementsByTagName("div")[0].style.backgroundSize = "cover";
                 clone.getElementsByTagName("div")[1].getElementsByTagName("h3")[0].innerHTML = "Nome Produto";
                 clone.getElementsByTagName("div")[1].getElementsByTagName("h3")[1].innerHTML = "<b>Preço</b> $$$";
@@ -136,8 +136,6 @@ function loadHighlights(){
                 insertAfter(clone,articleElement );
                  
              }
-    
-    
 }
 
 function loadSubCategories(op){

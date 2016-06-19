@@ -1,0 +1,15 @@
+Estrutura de Pastas:
+c
+f - ferramentas
+i - imagens
+j - json:
+r - raiz:
+-> favicon
+->principal.html
+s - servior:
+->cfg
+
+TODO: 
+1) tratar das imagens 
+2) preencher dados da estrutura
+3) gerar estrutura com os dados 
