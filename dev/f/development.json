@@ -1,0 +1,10 @@
+{
+    "uid": "ubuntu_s1",
+   "append": true, 
+   "watch": true,
+   "script": "../dev/servidor/node_arranque.js",
+   "sourceDir": "/home/nuno/Projecto_WebApp/webApp/dev",
+   "logFile": "/home/nuno/.forever/webApp/logs/forever.log",      
+   "outFile": "/home/nuno/.forever/webApp/saida.log",
+   "errFile": "/home/nuno/.forever/webApp/erro.log"
+}
