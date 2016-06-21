@@ -12,12 +12,12 @@ var $ = {
 
     gei: function(ref, e) {
         ref = typeof ref === "object" ? ref : this.d;
-        return ref.getElementById(e)
+        return ref.getElementById(e);
     },
 
     gen: function(ref, e) {
         ref = typeof ref === "object" ? ref : this.d;
-        ref.getElementsByTagName(e)
+        ref.getElementsByTagName(e);
     }
 
 };
@@ -45,7 +45,7 @@ function loadCategories_new(pesquisa) {
         clone.setAttribute("data-id", pesquisa[cat]);
         clone.onclick = function() {
             loadSubCategories(this);
-        }
+        };
         clone.appendChild(document.createTextNode(catList[cat][2]));
 
         spanElement.appendChild(clone);
@@ -98,7 +98,7 @@ function loadCategories() {
                 clone.setAttribute("data-id",catList[cat][0]);
                 clone.onclick = function(){ 
                     loadSubCategories(this);
-                }
+                };
                 clone.appendChild(document.createTextNode(catList[cat][2]));
            
                 spanElement.appendChild(clone);
@@ -128,7 +128,7 @@ function loadHighlights(){
              
              for (highItem in highList) {
                 clone=a.cloneNode(true);
-                clone.getElementsByTagName("div")[0].style.background =  "transparent url(i/"+ highList[highItem][1] + ".jpg) no-repeat center" ;
+                clone.getElementsByTagName("div")[0].style.background =  "transparent url(../i/"+ highList[highItem][1] + ".jpg) no-repeat center" ;
                 clone.getElementsByTagName("div")[0].style.backgroundSize = "cover";
                 clone.getElementsByTagName("div")[1].getElementsByTagName("h3")[0].innerHTML = "Nome Produto";
                 clone.getElementsByTagName("div")[1].getElementsByTagName("h3")[1].innerHTML = "<b>Preço</b> $$$";
@@ -144,8 +144,6 @@ function loadSubCategories(op){
     console.log(op);
     var a = document.createElement("span"),
         sList = document.getElementById("sublist");
-
-    
     
 }        
         
