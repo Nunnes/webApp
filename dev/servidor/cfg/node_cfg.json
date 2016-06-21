@@ -1,0 +1,19 @@
+{
+    "porta":80,
+    "producao": false,
+    "endereco_testes": "nunnes00@gmail.com",
+    "dir_raiz": "/home/nuno/Projecto_WebApp/webApp",
+    "url": "bora.la",
+    "diasCache": 0,
+    "diretorioLogs": "/../logs/",
+    "tls": false,
+    "couchdb": {
+        "ip": "127.0.0.1",
+        "protocolo": "http:",
+        "porta": 5984,
+        "db": {
+            "cat": "categorias"
+        }
+    }
+}
+
