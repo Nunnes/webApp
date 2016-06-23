@@ -1,0 +1,15 @@
+/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47
+    throw new TypeError('argument handle must be a function')
+    ^
+
+TypeError: argument handle must be a function
+    at vhost (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47:11)
+    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:11:9)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)
+    at tryModuleLoad (module.js:415:12)
+    at Function.Module._load (module.js:407:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:445:3
