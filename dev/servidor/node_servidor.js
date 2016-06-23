@@ -1,5 +1,4 @@
 /* global global, __dirname */
-
 var useragent = require('express-useragent'), 
         express = require('express'), 
         sessao = require('express-session'), 
@@ -8,58 +7,45 @@ var useragent = require('express-useragent'),
         app = express(), 
         favicon = require('serve-favicon');
 
-global.querystring = require('querystring');
+//global.querystring = require('querystring');
 global.fs = require("fs");
-global.$ = require('./_liv');
-global.db = require('./_interface_couchdb.js');
-global.zlib = require('zlib');
+//global.db = require('./_interface_couchdb.js');
+//global.zlib = require('zlib');
 
 app.disable('x-powered-by');
 app.use(compression());
 app.use(useragent.express());
-app.use(favicon(__dirname + "/../publico/raiz/favicon.ico"));
-app.use(express.static(__dirname + "/../publico/raiz", {maxAge: global.cfg.diasCache}));
-app.use("/g", express.static(__dirname + "/../publico/grafismo", {maxAge: global.cfg.diasCache}));
-app.use("/p", express.static(__dirname + "/../publico/diversos", {maxAge: global.cfg.diasCache}));
-app.use("/j", express.static(__dirname + "/../publico/json", {maxAge: global.cfg.diasCache}));
+app.use(favicon(__dirname + "./../r/favicon.ico"));
+app.use(express.static(__dirname + "./../r", {maxAge: global.cfg.diasCache}));
+app.use("/p/d", express.static(__dirname + "/../p/d", {maxAge: global.cfg.diasCache}));
+app.use("/i", express.static(__dirname + "/../i", {maxAge: global.cfg.diasCache}));
+app.use("/c", express.static(__dirname + "/../c", {maxAge: global.cfg.diasCache}));
 
 app.use(sessao({
-    store: new armazenamento_ficheiros({"path": __dirname + "/../sessoes"}),
+    store: new armazenamento_ficheiros({"path": __dirname + "./../sessoes"}),
     secret: 'gFnO2016!',
     resave: true,
     cookie: {secure: false},
     saveUninitialized: true
 }));
 
+app.get('/p/d', function (pedido, resposta) {
+    console.log(pedido.params[0]);
+    resposta.header("Cache-Control", "max-age=" + global.cfg.diasCache + " , public");
+    resposta.sendFile(pedido.params[0], {root: __dirname + "/../p/d/"});
+});
+
+
 app.get('/', function (pedido, resposta) {
     resposta.header("Cache-Control", "max-age=" + global.cfg.diasCache + " , public");
-    resposta.sendFile('principal.html', {root: __dirname + "/../publico/diversos"});
+    resposta.sendFile('principal.html', {root: __dirname + "/../p/d/"});
 });
 
-app.all('/j/p.json', function (pedido, resposta) {
-    var corpo = '';
-    global.conteudo_sessao = pedido.session;
-    if (!global.conteudo_sessao.autenticacao) {
-        global.conteudo_sessao.autenticacao = {"sid": null, "utilizador": null};
-    }
-    pedido.on('data', function (dados) {
-        corpo += dados;
-        if (corpo.length > 1e6) {
-            pedido.connection.destroy();
-            return;
-        }
-    });
-    pedido.on('end', function () {
-        var pedidos = require('./pedidos');
-        pedidos.executar(resposta, corpo);
-    }, 'utf-8');
-});
-
-app.get('/css', function (pedido, resposta) {
-    $.telefone_inteligente = pedido.useragent.isMobile;
-    var f = "geral_" + ($.telefone_inteligente ? "telemovel" : "computador") + ".css";
+app.get('/c', function (pedido, resposta) {
+    var telefone_inteligente = pedido.useragent.isMobile;
+    var f = (telefone_inteligente ? "m" : "c") + ".css";
     var o = {
-        root: __dirname + "/../publico/grafismo/",
+        root: __dirname + "/../c/",
         headers: {
             'x-timestamp': Date.now(),
             'Cache-Control': 'public, max-age=' + global.cfg.diasCache,

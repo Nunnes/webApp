@@ -2,9 +2,11 @@
     "uid": "ubuntu_s1",
    "append": true, 
    "watch": true,
-   "script": "servidor/node_arranque.js",
-   "sourceDir": "/home/nuno/Projecto_WebApp/webApp/dev/",
-   "logFile": "logs/forever.log",      
-   "outFile": "logs/saida.log",
-   "errFile": "logs/erro.log"
+   "fifo": true,
+   "script": "node_arranque.js",
+   "sourceDir": "/home/nuno/Projecto_WebApp/webApp/dev/servidor/",
+   "logFile": "/home/nuno/Projecto_WebApp/webApp/dev/logs/forever.log",      
+   "outFile": "/home/nuno/Projecto_WebApp/webApp/dev/logs/saida.log",
+   "errFile": "/home/nuno/Projecto_WebApp/webApp/dev/logs/erro.log"
+   
 }

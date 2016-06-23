@@ -1,0 +1,2 @@
+Instalar pacotes nodejs:
+npm install express-useragent compression serve-favicon express-session session-file-store vhost
