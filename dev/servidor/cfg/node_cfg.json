@@ -3,7 +3,7 @@
     "producao": false,
     "endereco_testes": "nunnes00@gmail.com",
     "dir_raiz": "/home/nuno/Projecto_WebApp/webApp",
-    "url": "bora.la",
+    "url": "localhost",
     "diasCache": 0,
     "diretorioLogs": "/../logs/",
     "tls": false,

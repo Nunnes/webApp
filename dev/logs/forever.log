@@ -231,3 +231,32 @@ error: Script restart attempt #52
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #53
+error: Could not read .foreverignore file.
+error: ENOENT, open '/home/nuno/Projecto_WebApp/webApp/dev/servidor/.foreverignore'
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #2
+error: Could not read .foreverignore file.
+error: ENOENT, open '/home/nuno/Projecto_WebApp/webApp/dev/servidor/.foreverignore'
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1135:5)
+    at EventEmitter.listen (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:15:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+error: Forever detected script exited with code: 8
+error: Forever detected script was killed by signal: SIGKILL
+error: Could not read .foreverignore file.
+error: ENOENT, open '/home/nuno/Projecto_WebApp/webApp/dev/servidor/.foreverignore'
