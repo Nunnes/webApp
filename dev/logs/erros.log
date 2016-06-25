@@ -1,0 +1,40 @@
+module.js:440
+    throw err;
+    ^
+
+Error: Cannot find module '/home/nuno/Projecto_WebApp/webApp/dev/servidor/webApp/dev/servidor/node_arranque.js'
+    at Function.Module._resolveFilename (module.js:438:15)
+    at Function.Module._load (module.js:386:25)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:445:3
+module.js:440
+    throw err;
+    ^
+
+Error: Cannot find module '/home/nuno/Projecto_WebApp/webApp/dev/servidor/webApp/dev/servidor/node_arranque.js'
+    at Function.Module._resolveFilename (module.js:438:15)
+    at Function.Module._load (module.js:386:25)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:445:3
+module.js:440
+    throw err;
+    ^
+
+Error: Cannot find module '/home/nuno/Projecto_WebApp/webApp/dev/servidor/webApp/dev/servidor/node_arranque.js'
+    at Function.Module._resolveFilename (module.js:438:15)
+    at Function.Module._load (module.js:386:25)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:445:3
+module.js:440
+    throw err;
+    ^
+
+Error: Cannot find module '/home/nuno/Projecto_WebApp/webApp/dev/servidor/webApp/dev/servidor/node_arranque.js'
+    at Function.Module._resolveFilename (module.js:438:15)
+    at Function.Module._load (module.js:386:25)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:445:3

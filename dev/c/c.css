@@ -1,6 +1,10 @@
 @font-face {
     font-family: glyphs;
+<<<<<<< HEAD
     src: url(../c/glyphs.ttf);
+=======
+    src: url(glyphs.ttf);
+>>>>>>> 94f23605c9ea99967da21992103af3973d752ea6
 }
 
 header {

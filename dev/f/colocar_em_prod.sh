@@ -1,7 +1,7 @@
 #
 # Atualiza a versÃ£o da cache
 #
-lv=$(sed '2!d' /servidor_html/projeto/nome.appcache)
+lv=$(sed '2!d' ../../nome.appcache)
 uv=$(echo $lv | tail -c 4)
 pv=$(echo $lv | cut -c1-14)
 #retira o zero Ã  esquerda para converter em decimal

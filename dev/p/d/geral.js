@@ -12,12 +12,12 @@ var $ = {
 
     gei: function(ref, e) {
         ref = typeof ref === "object" ? ref : this.d;
-        return ref.getElementById(e)
+        return ref.getElementById(e);
     },
 
     gen: function(ref, e) {
         ref = typeof ref === "object" ? ref : this.d;
-        ref.getElementsByTagName(e)
+        ref.getElementsByTagName(e);
     }
 
 };
@@ -45,7 +45,7 @@ function loadCategories_new(pesquisa) {
         clone.setAttribute("data-id", pesquisa[cat]);
         clone.onclick = function() {
             loadSubCategories(this);
-        }
+        };
         clone.appendChild(document.createTextNode(catList[cat][2]));
 
         spanElement.appendChild(clone);
@@ -98,7 +98,7 @@ function loadCategories() {
                 clone.setAttribute("data-id",catList[cat][0]);
                 clone.onclick = function(){ 
                     loadSubCategories(this);
-                }
+                };
                 clone.appendChild(document.createTextNode(catList[cat][2]));
            
                 spanElement.appendChild(clone);
@@ -142,8 +142,6 @@ function loadSubCategories(op){
     console.log(op);
     var a = document.createElement("span"),
         sList = document.getElementById("sublist");
-
-    
     
 }        
         
