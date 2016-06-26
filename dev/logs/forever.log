@@ -260,3 +260,53 @@ error: Forever detected script exited with code: 8
 error: Forever detected script was killed by signal: SIGKILL
 error: Could not read .foreverignore file.
 error: ENOENT, open '/home/nuno/Projecto_WebApp/webApp/dev/servidor/.foreverignore'
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #2
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './_interface_couchdb.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_servidor.js:12:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+error: Forever detected script exited with code: 8
+error: restarting script because add changed
+error: Script restart attempt #3
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #4
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #5
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #6

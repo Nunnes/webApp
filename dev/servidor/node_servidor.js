@@ -9,7 +9,7 @@ var useragent = require('express-useragent'),
 
 //global.querystring = require('querystring');
 global.fs = require("fs");
-//global.db = require('./_interface_couchdb.js');
+global.db = require('./_interface_couchdb.js');
 //global.zlib = require('zlib');
 
 app.disable('x-powered-by');

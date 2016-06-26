@@ -1,32 +1,25 @@
-
 var $ = {
     /**
     *@type document
     */
     d:function(){ 
         return document;},
-
     ce: function(e) {
         return this.d.createElement(e);
     },
-
     gei: function(ref, e) {
         ref = typeof ref === "object" ? ref : this.d;
         return ref.getElementById(e);
     },
-
     gen: function(ref, e) {
         ref = typeof ref === "object" ? ref : this.d;
         ref.getElementsByTagName(e);
     }
-
 };
-
 
 function insertAfter(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
-
 
 function loadCategories_new(pesquisa) {
     var cat, catList, clone,
@@ -48,8 +41,6 @@ function loadCategories_new(pesquisa) {
     }
 }
 
-
-
 function loadCategories() {
             
         var cat, clone,
@@ -60,12 +51,13 @@ function loadCategories() {
             ["Cenas 1", "\uF23E"],
             ["Cenas 2", "\uF40D"],
             ["Cenas 3", "\uF4F5"], 
-            ["Cenas 4",  "\uF570"],
+            ["Cenas 4", "\uF570"],
             ["Cenas 5", "\uF54A"],
             ["Cenas 6", "\uF580"],
             ["Cenas 7", "\u21B8"],
-            ["Cenas 8", "\u21EA"] ];
+            ["Cenas 8", "\u21EA"]];
            
+
             for (cat in catList) {
                 clone = s.cloneNode(true);
 
