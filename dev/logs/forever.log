@@ -1,41 +1,5 @@
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #1
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #2
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #3
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #4
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #5
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #6
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #7
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #8
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #9
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #10
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #11
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #12
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #13
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
@@ -70,7 +34,6 @@ error: Script restart attempt #23
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #24
-[session-file-store] Deleting expired sessions
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #25
@@ -80,233 +43,117 @@ error: Script restart attempt #26
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #27
-error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #28
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #29
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #30
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #31
-/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47
-    throw new TypeError('argument handle must be a function')
-    ^
-
-TypeError: argument handle must be a function
-    at vhost (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47:11)
-    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:11:9)
-    at Module._compile (module.js:541:32)
-    at Object.Module._extensions..js (module.js:550:10)
-    at Module.load (module.js:456:32)
-    at tryModuleLoad (module.js:415:12)
-    at Function.Module._load (module.js:407:3)
-    at Function.Module.runMain (module.js:575:10)
-    at startup (node.js:160:18)
-    at node.js:445:3
-error: Forever detected script exited with code: 1
-error: restarting script because change changed
-error: Script restart attempt #32
-/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47
-    throw new TypeError('argument handle must be a function')
-    ^
-
-TypeError: argument handle must be a function
-    at vhost (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47:11)
-    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:11:9)
-    at Module._compile (module.js:541:32)
-    at Object.Module._extensions..js (module.js:550:10)
-    at Module.load (module.js:456:32)
-    at tryModuleLoad (module.js:415:12)
-    at Function.Module._load (module.js:407:3)
-    at Function.Module.runMain (module.js:575:10)
-    at startup (node.js:160:18)
-    at node.js:445:3
-error: Forever detected script exited with code: 1
-error: Script restart attempt #33
-/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47
-    throw new TypeError('argument handle must be a function')
-    ^
-
-TypeError: argument handle must be a function
-    at vhost (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47:11)
-    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:11:9)
-    at Module._compile (module.js:541:32)
-    at Object.Module._extensions..js (module.js:550:10)
-    at Module.load (module.js:456:32)
-    at tryModuleLoad (module.js:415:12)
-    at Function.Module._load (module.js:407:3)
-    at Function.Module.runMain (module.js:575:10)
-    at startup (node.js:160:18)
-    at node.js:445:3
-error: Forever detected script exited with code: 1
-error: restarting script because change changed
-error: Script restart attempt #34
-/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47
-    throw new TypeError('argument handle must be a function')
-    ^
-
-TypeError: argument handle must be a function
-    at vhost (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47:11)
-    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:11:9)
-    at Module._compile (module.js:541:32)
-    at Object.Module._extensions..js (module.js:550:10)
-    at Module.load (module.js:456:32)
-    at tryModuleLoad (module.js:415:12)
-    at Function.Module._load (module.js:407:3)
-    at Function.Module.runMain (module.js:575:10)
-    at startup (node.js:160:18)
-    at node.js:445:3
-error: Forever detected script exited with code: 1
-error: Script restart attempt #35
-/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47
-    throw new TypeError('argument handle must be a function')
-    ^
-
-TypeError: argument handle must be a function
-    at vhost (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/vhost/index.js:47:11)
-    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:11:9)
-    at Module._compile (module.js:541:32)
-    at Object.Module._extensions..js (module.js:550:10)
-    at Module.load (module.js:456:32)
-    at tryModuleLoad (module.js:415:12)
-    at Function.Module._load (module.js:407:3)
-    at Function.Module.runMain (module.js:575:10)
-    at startup (node.js:160:18)
-    at node.js:445:3
-error: Forever detected script exited with code: 1
-error: restarting script because change changed
-error: Script restart attempt #36
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #37
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #38
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #39
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #40
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #41
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #42
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #43
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #44
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #45
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #46
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #47
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #48
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #49
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #50
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #51
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #52
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #53
 error: Could not read .foreverignore file.
-error: ENOENT, open '/home/nuno/Projecto_WebApp/webApp/dev/servidor/.foreverignore'
+error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/servidor/.foreverignore'
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #1
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #2
-error: Could not read .foreverignore file.
-error: ENOENT, open '/home/nuno/Projecto_WebApp/webApp/dev/servidor/.foreverignore'
-
-events.js:72
-        throw er; // Unhandled 'error' event
-              ^
-Error: listen EADDRINUSE
-    at errnoException (net.js:901:11)
-    at Server._listen2 (net.js:1039:14)
-    at listen (net.js:1061:10)
-    at Server.listen (net.js:1135:5)
-    at EventEmitter.listen (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/express/lib/application.js:617:24)
-    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:15:5)
-    at Module._compile (module.js:456:26)
-    at Object.Module._extensions..js (module.js:474:10)
-    at Module.load (module.js:356:32)
-    at Function.Module._load (module.js:312:12)
-error: Forever detected script exited with code: 8
-error: Forever detected script was killed by signal: SIGKILL
-error: Could not read .foreverignore file.
-error: ENOENT, open '/home/nuno/Projecto_WebApp/webApp/dev/servidor/.foreverignore'
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #1
-error: restarting script because change changed
-error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #2
-
-module.js:340
-    throw err;
-          ^
-Error: Cannot find module './_interface_couchdb.js'
-    at Function.Module._resolveFilename (module.js:338:15)
-    at Function.Module._load (module.js:280:25)
-    at Module.require (module.js:364:17)
-    at require (module.js:380:17)
-    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_servidor.js:12:13)
-    at Module._compile (module.js:456:26)
-    at Object.Module._extensions..js (module.js:474:10)
-    at Module.load (module.js:356:32)
-    at Function.Module._load (module.js:312:12)
-    at Module.require (module.js:364:17)
-error: Forever detected script exited with code: 8
-error: restarting script because add changed
 error: Script restart attempt #3
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #4
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #5
+/home/nuno/Projecto_WebApp/webApp/dev/servidor/_liv.js:30
+       };
+        ^
+SyntaxError: Unexpected token ;
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:511:25)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)
+    at tryModuleLoad (module.js:415:12)
+    at Function.Module._load (module.js:407:3)
+    at Module.require (module.js:466:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:8:12)
+    at Module._compile (module.js:541:32)
+error: Forever detected script exited with code: 1
+error: restarting script because change changed
+error: Script restart attempt #6
+/home/nuno/Projecto_WebApp/webApp/dev/servidor/_liv.js:18
+        loadCats: function (json) {
+                ^
+SyntaxError: Unexpected token :
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:511:25)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)
+    at tryModuleLoad (module.js:415:12)
+    at Function.Module._load (module.js:407:3)
+    at Module.require (module.js:466:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:8:12)
+    at Module._compile (module.js:541:32)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #7
+/home/nuno/Projecto_WebApp/webApp/dev/servidor/_liv.js:18
+        loadCats: function (json) {
+                ^
+SyntaxError: Unexpected token :
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:511:25)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)
+    at tryModuleLoad (module.js:415:12)
+    at Function.Module._load (module.js:407:3)
+    at Module.require (module.js:466:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:8:12)
+    at Module._compile (module.js:541:32)
+error: Forever detected script exited with code: 1
+error: restarting script because change changed
+error: Script restart attempt #8
 error: restarting script because change changed
 error: Forever detected script was killed by signal: SIGKILL
-error: Script restart attempt #6
+error: Script restart attempt #9
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #10
+/home/nuno/Projecto_WebApp/webApp/dev/servidor/_liv.js:31
+       };
+        ^
+SyntaxError: Unexpected token ;
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:511:25)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)
+    at tryModuleLoad (module.js:415:12)
+    at Function.Module._load (module.js:407:3)
+    at Module.require (module.js:466:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:8:12)
+    at Module._compile (module.js:541:32)
+error: Forever detected script exited with code: 1
+error: restarting script because change changed
+error: Script restart attempt #11
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #12
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #13
+/home/nuno/Projecto_WebApp/webApp/dev/servidor/_liv.js:31
+       };
+        ^
+SyntaxError: Unexpected token ;
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:511:25)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)
+    at tryModuleLoad (module.js:415:12)
+    at Function.Module._load (module.js:407:3)
+    at Module.require (module.js:466:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:8:12)
+    at Module._compile (module.js:541:32)
+error: Forever detected script exited with code: 1
+error: restarting script because change changed
+error: Script restart attempt #14

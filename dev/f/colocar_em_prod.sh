@@ -21,23 +21,11 @@ echo "A atualizar o nome.appcache para da versão ${uv} para ${nuv}"
 sed -i "2s/.*/$pv/" ${manifest}
 
 echo "A limpar otimização existente...\n"
-rm -rf ${path_oti}/p/
-rm -rf ${path_oti}/f/
-rm -rf ${path_oti}/servidor/
-rm -rf ${path_oti}/sessoes/
-rm -rf ${path_oti}/logs/
-
-
-mkdir ${path_oti}/logs/
-mkdir ${path_oti}/f/
 
 echo "A copiar ficheiros...\n"
-cp -a ${path_raiz}/dev/p/ 	 ${path_oti}/p
-cp -a ${path_raiz}/dev/servidor/ ${path_oti}/servidor
-cp -a ${path_raiz}/dev/sessoes/  ${path_oti}/sessoes
-cp  ${path_raiz}/dev/f/development.json ${path_oti}/f
-cp  ${path_raiz}/dev/f/iniciar_servidor.sh ${path_oti}/f
-
+cp -a ${path_raiz}/dev/p/ 	 ${path_oti}
+cp ${path_raiz}/dev/servidor/* ${path_oti}
+cp -a ${path_raiz}/dev/r/ 	 ${path_oti}
 
 echo "Vou comprimir JS\n"
 echo ".. diretório ${path_raiz}/dev/publico/\n"

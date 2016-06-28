@@ -1,3 +1,5 @@
+/* global this */
+
 //var nano = require('nano')('http://localhost:5984');
 //var db = nano.db.use('categorias');
 //
@@ -45,11 +47,11 @@ module.exports = {
     },
     /**
      * Faz um pedido ao servidor CouchDB
-     * @param {callback} retorno  FunÃ§Ã£o a chamar quando se tem a resposta do servidor
-     * @param {string} uri  EndereÃ§o do pedido
-     * @param {string} metodo  Opcional. GET|POST|PUT....
-     * @param {object} dados Opcional. Objeto com os POST|PUT a enviar para o servidor
-     * @param {callback} p1 Opcional. Passar uma chamada de retorno a ser enviada como parÃ¢metro na chamada de retorno original
+     * @param {callback} retorno  Função a chamar quando se tem a resposta do servidor
+     * @param {string} uri  Endereço do pedido
+     * @param {string} metodo   Opcional. GET|POST|PUT....
+     * @param {object} dados    Opcional. Objeto com os POST|PUT a enviar para o servidor
+     * @param {callback} p1     Opcional. Passar uma chamada de retorno a ser enviada como parâmetro na chamada de retorno original
      */
     pedir: function (retorno, uri, metodo, dados, p1) {
         var DadosPost, pedido, r2 = (typeof dados === "object" ? $.jsy(dados) : uri);

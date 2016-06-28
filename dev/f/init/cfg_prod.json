@@ -1,5 +1,5 @@
 {
-    "uid": "ubuntu_s1",
+   "uid": "ubuntu_s1",
    "append": true, 
    "watch": true,
    "fifo": true,

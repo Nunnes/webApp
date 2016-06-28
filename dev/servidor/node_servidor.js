@@ -7,9 +7,11 @@ var useragent = require('express-useragent'),
         app = express(),
         favicon = require('serve-favicon');
 
+
 //global.querystring = require('querystring');
 global.fs = require("fs");
 global.db = require('./_interface_couchdb.js');
+
 //global.zlib = require('zlib');
 
 app.disable('x-powered-by');
@@ -37,10 +39,43 @@ app.use(sessao({
  resposta.sendFile(pedido.params[0], {root: __dirname + "/../p/d/"});
  });*/
 
+
+
 app.get('/', function (pedido, resposta) {
     resposta.header("Cache-Control", "max-age=" + global.cfg.diasCache + " , public");
     resposta.sendFile('principal.html', {root: __dirname + "/../p/d/"});
+    
 });
+
+
+app.all('/j/p.json', function (pedido, resposta) {
+    var corpo = '';
+    global.conteudo_sessao = pedido.session;
+    if (!global.conteudo_sessao.autenticacao) {
+        global.conteudo_sessao.autenticacao = {"sid": null, "utilizador": null};
+    }
+    
+    pedido.on('i', function (i){
+            console.log(i);
+//        var response = global.liv.loadCats();
+//        console.log(response);
+//        return response;
+    });
+    
+    
+    pedido.on('data', function (dados) {
+        corpo += dados;
+        if (corpo.length > 1e6) {
+            pedido.connection.destroy();
+            return;
+        }
+    });
+    pedido.on('end', function () {
+        var pedidos = require('./pedidos');
+        pedidos.executar(resposta, corpo);
+    }, 'utf-8');
+});
+
 
 app.get('/c', function (pedido, resposta) {
     var telefone_inteligente = pedido.useragent.isMobile;
@@ -59,6 +94,8 @@ app.get('/c', function (pedido, resposta) {
         }
     });
 });
+
+
 
 app.get('*', function (pedido, resposta, seguinte) {
     var erro = new Error();

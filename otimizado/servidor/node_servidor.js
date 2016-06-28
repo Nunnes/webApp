@@ -7,6 +7,7 @@ var useragent = require('express-useragent'),
         app = express(),
         favicon = require('serve-favicon');
 
+
 //global.querystring = require('querystring');
 global.fs = require("fs");
 //global.db = require('./_interface_couchdb.js');
@@ -37,9 +38,13 @@ app.use(sessao({
  resposta.sendFile(pedido.params[0], {root: __dirname + "/../p/d/"});
  });*/
 
+
+
 app.get('/', function (pedido, resposta) {
+    console.log("/GET ");
     resposta.header("Cache-Control", "max-age=" + global.cfg.diasCache + " , public");
     resposta.sendFile('principal.html', {root: __dirname + "/../p/d/"});
+    
 });
 
 app.get('/c', function (pedido, resposta) {
@@ -59,6 +64,8 @@ app.get('/c', function (pedido, resposta) {
         }
     });
 });
+
+
 
 app.get('*', function (pedido, resposta, seguinte) {
     var erro = new Error();
