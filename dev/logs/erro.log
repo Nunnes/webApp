@@ -1,14 +1,30 @@
-/home/nuno/Projecto_WebApp/webApp/dev/servidor/_liv.js:30
-       };
-        ^
-SyntaxError: Unexpected token ;
-    at exports.runInThisContext (vm.js:53:16)
-    at Module._compile (module.js:511:25)
-    at Object.Module._extensions..js (module.js:550:10)
-    at Module.load (module.js:456:32)
-    at tryModuleLoad (module.js:415:12)
-    at Function.Module._load (module.js:407:3)
-    at Module.require (module.js:466:17)
-    at require (internal/module.js:20:19)
-    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:8:12)
-    at Module._compile (module.js:541:32)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1135:5)
+    at EventEmitter.listen (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:15:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_servidor.js:61
+	console.log("corpo:" 'corpo);
+	                     ^^^^^^^^
+SyntaxError: Unexpected token ILLEGAL
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/dev/servidor/node_arranque.js:11:31)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)

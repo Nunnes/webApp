@@ -55,24 +55,22 @@ app.all('/j/p.json', function (pedido, resposta) {
         global.conteudo_sessao.autenticacao = {"sid": null, "utilizador": null};
     }
     
-    pedido.on('i', function (i){
-            console.log(i);
-//        var response = global.liv.loadCats();
-//        console.log(response);
-//        return response;
-    });
-    
-    
     pedido.on('data', function (dados) {
-        corpo += dados;
+	
+	corpo.push(dados);
+	console.log("corpo:" +corpo);
+        //corpo += dados;
         if (corpo.length > 1e6) {
             pedido.connection.destroy();
             return;
         }
     });
+
     pedido.on('end', function () {
-        var pedidos = require('./pedidos');
-        pedidos.executar(resposta, corpo);
+	console.log("euzinho");            
+	console.log("corpo" + corpo);
+     //   var pedidos = require('./pedidos');
+       // pedidos.executar(resposta, corpo);
     }, 'utf-8');
 });
 

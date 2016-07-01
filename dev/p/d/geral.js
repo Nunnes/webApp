@@ -1,6 +1,3 @@
-/* global liv */
-
-global.liv = require('../../servidor/_liv.js');
 
 var $ = {
     /**
@@ -64,18 +61,20 @@ function loadCategories() {
            
 
 //          var url = "http://localhost:5984/categorias/_design/geral/_view/categorias"
-            var data = "p.json={'i':1}"; 
+            var data = "http://bora.la:80/j/p.json/?{i=2}"; 
             console.log(data);
 
 		xmlhttp = new XMLHttpRequest();
-   		xmlhttp.open("GET","http://localhost:80/?p.json={'i':1}", true);
+   		xmlhttp.open("POST",data, true);
    		xmlhttp.onreadystatechange=function(){
 		 if (xmlhttp.readyState==4 && xmlhttp.status==200){
 		   string=xmlhttp.responseText;
+			console.log(string);
 		 }
 	   	}
 	 	  xmlhttp.send();
             
+
              
             for (cat in catList) {
                 clone = s.cloneNode(true);
