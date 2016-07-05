@@ -1,26 +1,32 @@
 module.exports = {
-        iniciar: function () {
-        this.objPersonalizados();
+    executar: function (resposta, pedido) {
+        var d = JSON.parse(pedido.query["d"]),
+                url = "categorias/_design/geral/_view/categorias?key=1",
+                sucesso = function (resposta) {
+                    console.log(resposta);
+                };
+        
+        console.log("url " + url);
+
+        if (!"i" in d) {
+            //send error page
+            this.resposta_erro(resposta);
+        }
+
+        d.i = Number(d.i);
+
+        switch (d.i) {
+            case 1:
+                //pedir ao couch a lista de categorias
+                console.log("switch d.i:" + d.i);
+                global.db.pedir(sucesso, url, "GET");
+                break;
+            default:
+                this.resposta_erro(resposta);
+        }
     },
     
-      objPersonalizados: function () {
-        /**
-         * Substitui todas as ocorrências 
-         * @param {string} procura Texto a procurar
-         * @param {string} substitui Texto a substituir
-         * @returns {string} Texto final transformado
-         */
-        String.prototype.substituiTudo = function (procura, substitui) {
-            var target = this;
-            return target.replace(new RegExp(procura.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), 'g'), substitui);
-        };
-    },
-        
-        loadCats: function (json) {
-             console.log(json);
-         var xhttp = new XMLHttpRequest();
-        
-         xhttp.open("GET", json, true);
-         xhttp.send();
-       }
+    resposta_erro: function (resposta) {
+        resposta.sendStatus(404);    }
+    
 };

@@ -15,6 +15,7 @@
 //  }
 //});
 
+$ = require("./_liv");
 
 /* 
  * Lida com os pedidos entre o servidor e o CouchDB
@@ -53,6 +54,7 @@ module.exports = {
      * @param {object} dados    Opcional. Objeto com os POST|PUT a enviar para o servidor
      * @param {callback} p1     Opcional. Passar uma chamada de retorno a ser enviada como parâmetro na chamada de retorno original
      */
+    //  JSON.parse(dados)
     pedir: function (retorno, uri, metodo, dados, p1) {
         var DadosPost, pedido, r2 = (typeof dados === "object" ? $.jsy(dados) : uri);
         if (uri === undefined) {
@@ -93,4 +95,3 @@ module.exports = {
         pedido.end(typeof dados === "object" ? DadosPost : null, "utf8");
     }
 };
-

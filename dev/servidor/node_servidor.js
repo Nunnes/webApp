@@ -10,7 +10,7 @@ var useragent = require('express-useragent'),
 
 //global.querystring = require('querystring');
 global.fs = require("fs");
-global.liv = require('./_liv');
+//global.liv = require('./_liv');
 global.db = require('./_interface_couchdb');
 
 //global.zlib = require('zlib');
@@ -49,14 +49,13 @@ app.get('/', function (pedido, resposta) {
 
 app.all('/j/p.json', function (pedido, resposta) {
     var corpo = '';
+    //console.log(pedido);
     global.conteudo_sessao = pedido.session;
     if (!global.conteudo_sessao.autenticacao) {
         global.conteudo_sessao.autenticacao = {"sid": null, "utilizador": null};
     }
     
     pedido.on('data', function (dados) {
-        console.log("data");      
-	console.log("corpo:" +corpo);
         corpo += dados;
         if (corpo.length > 1e6) {
             pedido.connection.destroy();
@@ -65,10 +64,8 @@ app.all('/j/p.json', function (pedido, resposta) {
     });
 
     pedido.on('end', function () {
-	console.log("end");            
-	console.log("corpo:" + corpo);
-     //   var pedidos = require('./pedidos');
-       // pedidos.executar(resposta, corpo);
+       var pedidos = require('./pedidos');
+       pedidos.executar(resposta, pedido);
     }, 'utf-8');
 });
 
@@ -90,8 +87,6 @@ app.get('/c', function (pedido, resposta) {
         }
     });
 });
-
-
 
 app.get('*', function (pedido, resposta, seguinte) {
     var erro = new Error();
