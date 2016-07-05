@@ -1,6 +1,3 @@
-/* global liv */
-
-global.liv = require('../../servidor/_liv.js');
 
 var $ = {
     /**
@@ -61,14 +58,11 @@ function loadCategories() {
             ["Cenas 7", "\u21B8"],
             ["Cenas 8", "\u21EA"]];
 
-           
-
 //          var url = "http://localhost:5984/categorias/_design/geral/_view/categorias"
             var data = "p.json={'i':1}"; 
-            console.log(data);
+//            console.log(data);
             
-            var cats = liv.loadCats(data);
-            console.log(cats);
+            liv.loadCats(data);
              
             for (cat in catList) {
                 clone = s.cloneNode(true);

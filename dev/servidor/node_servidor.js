@@ -10,7 +10,8 @@ var useragent = require('express-useragent'),
 
 //global.querystring = require('querystring');
 global.fs = require("fs");
-global.db = require('./_interface_couchdb.js');
+global.liv = require('./_liv');
+global.db = require('./_interface_couchdb');
 
 //global.zlib = require('zlib');
 

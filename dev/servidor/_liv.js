@@ -17,14 +17,10 @@ module.exports = {
     },
         
         loadCats: function (json) {
+             console.log(json);
          var xhttp = new XMLHttpRequest();
         
-         xhttp.onreadystatechange = function() {
-           if (xhttp.readyState == 4 && xhttp.status == 200) {
-                          return xhttp.responseText;
-           
-             }
-         };
+       
          
          xhttp.open("GET", json, true);
          xhttp.send();
