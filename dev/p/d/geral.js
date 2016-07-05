@@ -59,10 +59,19 @@ function loadCategories() {
             ["Cenas 8", "\u21EA"]];
 
 //          var url = "http://localhost:5984/categorias/_design/geral/_view/categorias"
-            var data = "p.json={'i':1}"; 
-//            console.log(data);
-            
-            liv.loadCats(data);
+            var data = "http://bora.la:80/j/p.json?{i=2}"; 
+            console.log(data);
+
+		var xmlhttp = new XMLHttpRequest();
+   		xmlhttp.open("GET",data, true);
+   		xmlhttp.onreadystatechange=function(){
+		 
+		 if (xmlhttp.readyState==4 && xmlhttp.status==200){
+		   var string=xmlhttp.responseText;
+		    console.log(string);
+		 }
+	   	}
+	 	  xmlhttp.send();
              
             for (cat in catList) {
                 clone = s.cloneNode(true);
