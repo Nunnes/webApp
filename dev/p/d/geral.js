@@ -62,7 +62,7 @@ function loadCategories() {
             var data = "http://bora.la:80/j/p.json?{i=2}"; 
             console.log(data);
 
-		var xmlhttp = new XMLHttpRequest();
+		xmlhttp = new XMLHttpRequest();
    		xmlhttp.open("GET",data, true);
    		xmlhttp.onreadystatechange=function(){
 		 

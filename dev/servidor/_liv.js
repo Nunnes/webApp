@@ -20,8 +20,6 @@ module.exports = {
              console.log(json);
          var xhttp = new XMLHttpRequest();
         
-       
-         
          xhttp.open("GET", json, true);
          xhttp.send();
        }

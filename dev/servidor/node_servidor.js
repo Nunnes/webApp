@@ -40,8 +40,6 @@ app.use(sessao({
  resposta.sendFile(pedido.params[0], {root: __dirname + "/../p/d/"});
  });*/
 
-
-
 app.get('/', function (pedido, resposta) {
     resposta.header("Cache-Control", "max-age=" + global.cfg.diasCache + " , public");
     resposta.sendFile('principal.html', {root: __dirname + "/../p/d/"});
@@ -57,6 +55,7 @@ app.all('/j/p.json', function (pedido, resposta) {
     }
     
     pedido.on('data', function (dados) {
+        console.log("data");      
 	console.log("corpo:" +corpo);
         corpo += dados;
         if (corpo.length > 1e6) {
@@ -66,8 +65,8 @@ app.all('/j/p.json', function (pedido, resposta) {
     });
 
     pedido.on('end', function () {
-	console.log("euzinho");            
-	console.log("corpo" + corpo);
+	console.log("end");            
+	console.log("corpo:" + corpo);
      //   var pedidos = require('./pedidos');
        // pedidos.executar(resposta, corpo);
     }, 'utf-8');
