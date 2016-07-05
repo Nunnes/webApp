@@ -5,39 +5,28 @@ var $ = {
     */
     d:function(){ 
         return document;},
-
     ce: function(e) {
         return this.d.createElement(e);
     },
-
     gei: function(ref, e) {
         ref = typeof ref === "object" ? ref : this.d;
         return ref.getElementById(e);
     },
-
     gen: function(ref, e) {
         ref = typeof ref === "object" ? ref : this.d;
         ref.getElementsByTagName(e);
     }
-
 };
-
 
 function insertAfter(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 
-
 function loadCategories_new(pesquisa) {
+    var cat, catList, clone,
+        spanElement= document.getElementById("catlist"),
+        s = document.createElement("span");
 
-    var spanElement, cat, spanItem, catList, catListfa;
-
-    spanElement = document.getElementById("catlist");
-
-    var s = document.createElement("span"), clone;
-
-
-    //pesquisa
     for (cat in pesquisa) {
         clone = s.cloneNode(true);
 
@@ -51,76 +40,70 @@ function loadCategories_new(pesquisa) {
         spanElement.appendChild(clone);
 
     }
-
 }
-
-
 
 function loadCategories() {
             
-            var spanElement, cat, spanItem, catList, catListfa; 
-            
+        var cat, clone,
+            sElem = document.getElementById("catlist"), 
+            s = document.createElement("span"), 
             catList = [
-                ["Automóveis", "", "\uF239"], 
-                ["Cenas 1", "red", "\uF23E"],
-                ["Cenas 2", "blue", "\uF40D"],
-                ["Cenas 3", "yellow", "\uF4F5"], 
-                ["Cenas 4", "pink", "\uF570"],
-                ["Cenas 5", "orange", "\uF54A"],
-                ["Cenas 6", "purple", "\uF580"],
-                ["Cenas 7", "gray", "\u21B8"],
-                ["Cenas 8", "orange", "\u21EA"] ];
+            ["Automóveis", "\uF239"], 
+            ["Cenas 1", "\uF23E"],
+            ["Cenas 2", "\uF40D"],
+            ["Cenas 3", "\uF4F5"], 
+            ["Cenas 4", "\uF570"],
+            ["Cenas 5", "\uF54A"],
+            ["Cenas 6", "\uF580"],
+            ["Cenas 7", "\u21B8"],
+            ["Cenas 8", "\u21EA"]];
 
-             catListfa = [
-                ["Automóveis", "id"], 
-                ["  1", "red", "x", "y"],
-                ["Cenas 2", "blue", "x", "y"],
-                ["Cenas 3", "yellow", "x", "y"], 
-                ["Cenas 4", "pink", "x", "y"],
-                ["Cenas 5", "orange", "x", "y"],
-                ["Cenas 6", "purple", "x", "y"],
-                ["Cenas 7", "gray", "x", "y"],
-                ["Cenas 8", "orange", "x", "y"] ];
+//          var url = "http://localhost:5984/categorias/_design/geral/_view/categorias"
+            var data = "http://bora.la:80/j/p.json?{i=2}"; 
+            console.log(data);
 
- /* <span class="cat fa fa-blind fa-3x" aria-hidden="true" style="width: 50px; height: 50px; background-color: red"></span>
-    <span class="cat fa fa-home fa-3x" aria-hidden="true" style="width: 50px; height: 50px; background-color: blue"></span>
-    <span class="cat fa fa-car fa-2x" aria-hidden="true" style="width: 50px; height: 50px; background-color: gray"></span>*/
-
-            spanElement = document.getElementById("catlist");
+		var xmlhttp = new XMLHttpRequest();
+   		xmlhttp.open("GET",data, true);
+   		xmlhttp.onreadystatechange=function(){
+		 
+		 if (xmlhttp.readyState==4 && xmlhttp.status==200){
+		   var string=xmlhttp.responseText;
+		    console.log(string);
+		 }
+	   	}
+	 	  xmlhttp.send();
             
-            var s = document.createElement("span"), clone;
 
+             
             for (cat in catList) {
                 clone = s.cloneNode(true);
-                
-                //clone.style.background = catList[cat][1];
+
                 clone.className = "cat";
                 clone.setAttribute("data-id",catList[cat][0]);
                 clone.onclick = function(){ 
-                    loadSubCategories(this);
+                        loadSubCategories(this);
                 };
-                clone.appendChild(document.createTextNode(catList[cat][2]));
-           
-                spanElement.appendChild(clone);
                 
+                clone.appendChild(document.createTextNode(catList[cat][1]));
+           
+                sElem.appendChild(clone);                
             }
         }
         
         
 function loadHighlights(){
       
-      var highList = [
+      var   highItem, clone,
+            a=document.createElement("article"),
+            d=document.createElement("div"),
+            h=document.createElement("h3"),
+            articleElement = document.getElementById("articlelist"),
+            highList = [
                 ["girl_Desc", "girl", "$$$"],
                 ["boy_Desc", "boy", "$$"],
                 ["man_Desc", "man", "$$$$"],
-                ["women_Desc", "women", "$$$$$"]]; 
+                ["women_Desc", "women", "$$$$$"]];
 
-            var a=document.createElement("article"),
-                d=document.createElement("div"),
-                h=document.createElement("h3"),
-                highItem, clone,
-                articleElement = document.getElementById("articlelist");
-             
              a.appendChild(d.cloneNode());
              d.appendChild(h.cloneNode());
              d.appendChild(h);
@@ -136,12 +119,13 @@ function loadHighlights(){
                 insertAfter(clone,articleElement );
                  
              }
+    
 }
 
 function loadSubCategories(op){
     console.log(op);
-    var a = document.createElement("span"),
-        sList = document.getElementById("sublist");
+    //var a = document.createElement("span"),
+      //  sList = document.getElementById("sublist");
     
 }        
         

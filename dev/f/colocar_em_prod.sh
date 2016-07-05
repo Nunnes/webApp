@@ -1,65 +1,82 @@
 #
-# Atualiza a versÃ£o da cache
+# Atualiza a versãoo da cache
 #
-lv=$(sed '2!d' ../../nome.appcache)
+path_raiz=/home/nuno/Projecto_WebApp/webApp
+path_oti=${path_raiz}/otimizado
+manifest=${path_raiz}/nome.appcache
+
+lv=$(sed '2!d' ${manifest})
 uv=$(echo $lv | tail -c 4)
 pv=$(echo $lv | cut -c1-14)
-#retira o zero Ã  esquerda para converter em decimal
+#retira o zero à esquerda para converter em decimal
 uv=${uv#0} 
-#retira o zero Ã  esquerda para converter em decimal
+#retira o zero à esquerda para converter em decimal
 uv=${uv#0}
 #incrementa 1
 nuv=$((uv+1))
 nuv=$(printf "%03d\n" $nuv)
 pv=$pv$nuv
-echo "A atualizar o nome.appcache para da versÃ£o ${uv} para ${nuv}"
+echo "A atualizar o nome.appcache para da versão ${uv} para ${nuv}"
 #substitui a linha 2.
-sed -i "2s/.*/$pv/" /servidor_html/projeto/nome.appcache
+sed -i "2s/.*/$pv/" ${manifest}
 
-
-echo "A limpar otimizaÃ§Ã£o existente...\n"
-rm /servidor_html/projeto/otimizado/publico/* -R
-rm /servidor_html/projeto/otimizado/servidor/* -R
+echo "A limpar otimização existente...\n"
 
 echo "A copiar ficheiros...\n"
-cp -a /servidor_html/projeto/publico/. /servidor_html/projeto/otimizado/publico/
-cp -a /servidor_html/projeto/servidor/. /servidor_html/projeto/otimizado/servidor/
+cp -a ${path_raiz}/dev/p/ 	 ${path_oti}
+cp ${path_raiz}/dev/servidor/* ${path_oti}
+cp -a ${path_raiz}/dev/r/ 	 ${path_oti}
 
 echo "Vou comprimir JS\n"
+echo ".. diretório ${path_raiz}/dev/publico/\n"
 
-echo ".. diretÃ³rio /servidor_html/projeto/publico/\n"
+cd ${path_raiz}/dev/p/
 
-cd /servidor_html/projeto/publico/
-echo "f1.js\n"
- yui-compressor -v --charset utf-8  f1.js -o /servidor_html/projeto/otimizado/publico/f1.js 
+echo "javascript geral.js\n"
+yui-compressor -v --charset utf-8  d/geral.js -o ${path_oti}/p/d/geral.js 
 
-echo ".. diretÃ³rio /servidor_html/projeto/servidor\n"
+#echo "Todos os fichiros javascript na pasta publico *.js\n"
+#yui-compressor -v --charset utf-8  */*.js -o ${path_oti}/p/*/*.js 
 
-cd /servidor_html/projeto/servidor
-echo "f1.js\n"
- yui-compressor -v --charset utf-8  f1.js -o /servidor_html/projeto/otimizado/servidor/f1.js 
+## yui rebenta
+#echo ".. diretório ${path_raiz}/dev/servidor\n"
+#cd ${path_raiz}/dev/servidor/
+#echo "node_arranque.js\n"
+# yui-compressor -v --charset utf-8 node_arranque.js -o ${path_oti}/servidor/node_arranque.js 
+
+#echo "node_servidor.js\n"
+# yui-compressor -v --charset utf-8 node_servidor.js -o ${path_oti}/servidor/node_servidor.js 
+
+#echo "Todos os fichiros javascript na pasta servidor *.js\n"
+#yui-compressor -v --charset utf-8  */*.js -o ${path_oti}/servidor/*/*.js 
 
 echo "Vou comprimir CSS\n"
 
-cd /servidor_html/projeto/publico/grafismo
-echo "f1.css\n"
- yui-compressor -v --charset utf-8  f1.css -o /servidor_html/projeto/otimizado/publico/grafismo/f1.css 
+cd ${path_raiz}/dev/p/c
+echo "m.css"
+ yui-compressor -v --charset utf-8  m.css -o ${path_oti}/p/c/m.css 
+
+echo "c.css"
+ yui-compressor -v --charset utf-8  c.css -o ${path_oti}/p/c/c.css 
 
 
-echo "Vou comprimir HTML\n"
-java -jar /servidor_html/projeto/ferramentas/htmlcompressor-1.5.3.jar /servidor_html/projeto/publico/diversos/*.html -o /servidor_html/projeto/otimizado/publico/ --remove-intertag-spaces 
+echo "\nVou comprimir HTML\n"
+java -jar ${path_raiz}/dev/f/htmlcompressor-1.5.3.jar ${path_raiz}/dev/p/d/*.html -o ${path_oti}/p/d/ --remove-intertag-spaces 
 
-
-echo "A montar o diretÃ³rio remoto no disco local em /servidor_html/projeto/remoto/\n"
+### to be done ###
+echo "A montar o diretório remoto no disco local em /servidor_html/projeto/remoto/\n"
 #sshfs ole@100.100.100.007:/servidor_html/projeto /servidor_html/projeto/remoto -p190 -o IdentityFile=/root/.ssh/servidor1_id_rsa
 
 echo "A atualizar o servidor remoto com os novos ficheiros\n"
 
 echo "/publico/\n"
-cp -u /servidor_html/projeto/otimizado/publico/* /servidor_html/projeto/prod/publico/
+#cp -u /servidor_html/projeto/otimizado/publico/* /servidor_html/projeto/prod/publico/
 
 echo "/servidor/\n"
-cp -u /servidor_html/projeto/otimizado/servidor/* /servidor_html/projeto/prod/servidor/
+#cp -u /servidor_html/projeto/otimizado/servidor/* /servidor_html/projeto/prod/servidor/
 
-echo "A desmontar o diretÃ³rio remoto\n"
+echo "A desmontar o diretório remoto\n"
 #umount /servidor_html/projeto/remoto
+
+
+

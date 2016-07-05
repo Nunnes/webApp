@@ -1,0 +1,15 @@
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8081
+    at Object.exports._errnoException (util.js:949:11)
+    at exports._exceptionWithHostPort (util.js:972:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at Server.listen (net.js:1385:5)
+    at EventEmitter.listen (/home/nuno/Projecto_WebApp/webApp/otimizado/servidor/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/nuno/Projecto_WebApp/webApp/otimizado/servidor/node_arranque.js:15:5)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)

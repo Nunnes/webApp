@@ -1,0 +1,42 @@
+Instalar pacotes nodejs:
+npm install express-useragent compression serve-favicon express-session session-file-store vhost forever
+
+->Poder ser necessário:
+	npm install express-useragent --save
+	npm install forever --global
+ 
+->link between node and nodejs: sudo ln -s /usr/bin/nodejs /usr/local/bin/node
+
+This is because things installed via npm want the Node.JS interpreter to be named "node" while the version installed by apt is named "nodejs"	
+
+Pacotes necessários:
+YUI Compressor
+
+Directorias:
+path = ./webApp/dev
+
+/f => Ferramentas
+- colocar_em_prod.sh
+- iniciar_servidor_dev.sh, iniciar_servidor_prod.sh
+- dev.json, prod.json
+- htmlcompressor-1.5.3.jar
+
+/logs
+
+/p => Public: pasta publica 
+- /c -> css
+- /d -> Diversos: principal.html, geral.js
+- /i -> imagens
+- /j -> ficheiros json
+
+/r => recursos:
+- favicon
+-robots.txt
+
+/servidor
+-> cfg
+-> node_arranque.js
+-> node_servidor.js
+
+
+/sessoes
