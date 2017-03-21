@@ -2,8 +2,10 @@ module.exports = {
     executar: function (resposta, pedido) {
         var d = JSON.parse(pedido.query["d"]),
                 url = "categorias/_design/geral/_view/categorias?key=1",
-                sucesso = function (resposta) {
-                    console.log(resposta);
+               
+		 sucesso = function (dados) {
+			console.log("resposta:" +dados);
+			resposta.send(dados);
                 };
         
         console.log("url " + url);
@@ -19,8 +21,16 @@ module.exports = {
             case 1:
                 //pedir ao couch a lista de categorias
                 console.log("switch d.i:" + d.i);
-                global.db.pedir(sucesso, url, "GET");
-                break;
+
+                //global.db.pedir(sucesso, url, "GET");
+		global.db.getCats(sucesso);                
+		break;
+            case 4:
+                //pedir ao couch a lista de categorias
+                console.log("switch d.i:" + d.i);
+
+               global.db.getItems(sucesso);                
+		break;
             default:
                 this.resposta_erro(resposta);
         }

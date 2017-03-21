@@ -1,8 +1,7 @@
 /* global this */
 
-//var nano = require('nano')('http://localhost:5984');
-//var db = nano.db.use('categorias');
-//
+var nano = require('nano')('http://localhost:5984');
+var db = nano.db.use('categorias');
 //var data = { 
 //    name: 'categorias', 
 //    cat: [3,3],
@@ -85,6 +84,7 @@ module.exports = {
                     }
                 }
             });
+
             resposta.on('error', function (e) {
                 console.log({"ficheiro": "com_servidor_couchdb.js", "mensagem": e.message, "notas": {"couchdb_opcoes": this.couchdb_opcoes}});
                 return;
@@ -93,5 +93,28 @@ module.exports = {
         http = require("http");
         pedido = http.request(this.couchdb_opcoes, chamada_retorno);
         pedido.end(typeof dados === "object" ? DadosPost : null, "utf8");
-    }
+    },
+
+	getCats : function(retorno){
+ 	 db.view('getCats', 'cats', {'key': null, 'include_docs': false}, function(err, body){
+	    if(!err){
+		var rows = body.rows; 
+		retorno(rows);
+	    }else{
+	console.log(err);
+	}
+	 });
+},
+	getItems : function(retorno){
+	 	 db.view('getItems', 'items', {'key': null, 'include_docs': false}, function(err, body){
+		    if(!err){
+			var rows = body.rows; //the rows returned
+			//var tipo = rows.doc.tipo;
+			//console.log(tipo);
+			retorno(rows);
+		    }else{
+		console.log(err);
+		}
+	    });
+	}
 };

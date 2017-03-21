@@ -14,4 +14,4 @@ app.use(compression());
 app.use(useragent.express());
 app.listen(global.cfg.porta);
 
-//http://localhost:5984/categorias/_design/geral/_view/categorias?key=1
+//http://localhost:5984/categorias/_design/geral/_view/categorias?key=1vai 

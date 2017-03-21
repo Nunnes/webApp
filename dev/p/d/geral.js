@@ -1,5 +1,24 @@
-/* global liv */
 
+function loadData(data, cfunc){
+
+ var string = "empty" , 
+     link   = "http://bora.la/j/p.json?",
+     data   = link + 'd=' + encodeURIComponent(data);
+    
+    xmlhttp = new XMLHttpRequest();
+
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+           cfunc(xmlhttp); 
+        }
+    }
+
+    // xmlhttp.open("POST",data, true);
+    //xmlhttp.send("dados=teste");
+
+    xmlhttp.open("GET", data, true);
+    xmlhttp.send();
+}
 
 
 function insertAfter(newNode, referenceNode) {
@@ -25,7 +44,7 @@ function loadCategories_new(pesquisa) {
     }
 }
 
-function loadCategories() {
+function loadCategories(xhttp) {
 
     var cat, clone,
             sElem = document.getElementById("catlist"),
@@ -39,28 +58,25 @@ function loadCategories() {
                 ["Cenas 5",    "\uF54A"],
                 ["Cenas 6",    "\uF580"],
                 ["Cenas 7",    "\u21B8"],
-                ["Cenas 8",    "\u21EA"]];
+                ["Cenas 8",    "\u21EA"]], 
+	    catList_new = JSON.parse(xhttp.responseText);
 
-    var catList_new = pedeCats();
-    
-    //console.log(catList_new);
-
-    for (cat in catList) {
-        clone = s.cloneNode(true);
-
-        clone.className = "cat";
-        clone.setAttribute("data-id", catList[cat][0]);
+    for (cat in catList_new) {
+	
+	clone = s.cloneNode(true);
+	clone.className = "cat";
+        clone.setAttribute("data-id", catList_new[cat].value[0]);
         clone.onclick = function () {
             loadSubCategories(this);
         };
 
-        clone.appendChild(document.createTextNode(catList[cat][1]));
+        clone.appendChild(document.createTextNode(catList_new[cat].value[1]));
         sElem.appendChild(clone);
     }
 }
 
 
-function loadHighlights() {
+function loadHighlights(xhttp) {
 
     var highItem, clone,
             a = document.createElement("article"),
@@ -71,12 +87,17 @@ function loadHighlights() {
                 ["girl_Desc", "girl", "$$$"],
                 ["boy_Desc", "boy", "$$"],
                 ["man_Desc", "man", "$$$$"],
-                ["women_Desc", "women", "$$$$$"]];
+                ["women_Desc", "women", "$$$$$"]],
+	    highList_new = JSON.parse(xhttp.responseText);
+
 
     a.appendChild(d.cloneNode());
     d.appendChild(h.cloneNode());
     d.appendChild(h);
     a.appendChild(d);
+
+
+	pedeCats(createCats); 
 
     for (highItem in highList) {
         clone = a.cloneNode(true);
@@ -97,37 +118,11 @@ function loadSubCategories(op) {
 }
 
 
-function pedeCats() {
-    //var data = link + "dados=" + encodeURIComponent("Conceição");
-
-//    var c = {"_id":"291900804b85cf842a9ae7afed001e05","cat":{"t":[0,1],"st":[[1,2],[2,3],[3,4],[4,5]]}}
-//    c.cat.t
-    
-    var string , 
-            link = "http://bora.la/j/p.json?",
-            data = link + 'd=' + encodeURIComponent('{"i":1 , "e":1}');
-    
-    xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function () {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            string = xmlhttp.responseText;
-           console.log(string);
-        }
-    }
-
-    // xmlhttp.open("POST",data, true);
-    //xmlhttp.send("dados=teste");
-
-    xmlhttp.open("GET", data, true);
-    xmlhttp.send();
 
 
-
-
-    return string;
-}
-
-loadCategories();
-loadHighlights();
+loadData('{"i":1 , "e":1}', loadCategories);
+//loadData('{"i":4 , "e":2}', loadHighlights)
+//loadCategories();
+//loadHighlights();
 
 

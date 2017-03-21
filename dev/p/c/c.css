@@ -89,6 +89,7 @@ body > article > div:first-child article div:hover {
 }
 
 .cat {
+    line-height: 70px;
     font-family: glyphs;
     text-align: center;
     color: black;
@@ -107,6 +108,11 @@ body > article > div:first-child article div:hover {
     border: 1px solid #bb291a;
     /*box-shadow: 0 0 3pt 2pt #E5C100;*/
     opacity: 1;
+    cursor: pointer;
+}
+
+.cat:active{
+    transform: translateY(2px);
 }
 
 #catlist {

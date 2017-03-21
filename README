@@ -1,16 +1,25 @@
-Instalar pacotes nodejs:
+Prepare environment: 
+1) Install NodeJS 
+2) Install nodejs packages:
 npm install express-useragent compression serve-favicon express-session session-file-store vhost forever
 
-->Poder ser necessário:
+->Pode ser necessário:
 	npm install express-useragent --save
 	npm install forever --global
  
+Linux: create link
+This is because things installed via npm want the Node.JS interpreter to be named "node" while the version installed by apt is named "nodejs"	
 ->link between node and nodejs: sudo ln -s /usr/bin/nodejs /usr/local/bin/node
 
-This is because things installed via npm want the Node.JS interpreter to be named "node" while the version installed by apt is named "nodejs"	
-
 Pacotes necessários:
-YUI Compressor
+YUI Compressor - sudo apt-get install yui-compressor 
+
+
+3) Install Netbeans:
+- html5 webkit  
+- http://plugins.netbeans.org/plugin/36653/nodejs
+
+
 
 Directorias:
 path = ./webApp/dev
