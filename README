@@ -11,8 +11,11 @@ Linux: create link
 This is because things installed via npm want the Node.JS interpreter to be named "node" while the version installed by apt is named "nodejs"	
 ->link between node and nodejs: sudo ln -s /usr/bin/nodejs /usr/local/bin/node
 
-Pacotes necessários:
-YUI Compressor - sudo apt-get install yui-compressor 
+Pacotes necessários ou jars:
+YUI Compressor - http://yui.github.io/yuicompressor/ : comprimir javaScript
+sudo apt-get install yui-compressor 
+
+htmlcompressor-1.5.3.jar: comprimir html
 
 
 3) Install Netbeans:

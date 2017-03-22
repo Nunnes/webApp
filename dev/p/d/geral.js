@@ -1,15 +1,15 @@
 
-function loadData(data, cfunc){
+function loadData(data, cfunc) {
 
- var string = "empty" , 
-     link   = "http://bora.la/j/p.json?",
-     data   = link + 'd=' + encodeURIComponent(data);
-    
+    var string = "empty",
+            link = "http://bora.la/j/p.json?",
+            data = link + 'd=' + encodeURIComponent(data);
+
     xmlhttp = new XMLHttpRequest();
 
     xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-           cfunc(xmlhttp); 
+            cfunc(xmlhttp);
         }
     }
 
@@ -25,52 +25,29 @@ function insertAfter(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 
-function loadCategories_new(pesquisa) {
-    var cat, catList, clone,
-            spanElement = document.getElementById("catlist"),
-            s = document.createElement("span");
-
-    for (cat in pesquisa) {
-        clone = s.cloneNode(true);
-
-        clone.className = "cat";
-        clone.setAttribute("data-id", pesquisa[cat]);
-        clone.onclick = function () {
-            loadSubCategories(this);
-        };
-        clone.appendChild(document.createTextNode(catList[cat][2]));
-
-        spanElement.appendChild(clone);
-    }
-}
-
 function loadCategories(xhttp) {
 
     var cat, clone,
             sElem = document.getElementById("catlist"),
             s = document.createElement("span"),
-            catList = [
-                ["Automóveis", "\uF239"],
-                ["Cenas 1",    "\uF23E"],
-                ["Cenas 2",    "\uF40D"],
-                ["Cenas 3",    "\uF4F5"],
-                ["Cenas 4",    "\uF570"],
-                ["Cenas 5",    "\uF54A"],
-                ["Cenas 6",    "\uF580"],
-                ["Cenas 7",    "\u21B8"],
-                ["Cenas 8",    "\u21EA"]], 
-	    catList_new = JSON.parse(xhttp.responseText);
+            catList = JSON.parse(xhttp.responseText);
 
-    for (cat in catList_new) {
-	
-	clone = s.cloneNode(true);
-	clone.className = "cat";
-        clone.setAttribute("data-id", catList_new[cat].value[0]);
+    for (cat in catList) {
+
+        clone = s.cloneNode(true);
+        clone.className = "cat";
+        clone.setAttribute("data-id", catList[cat].value[0]);
         clone.onclick = function () {
-            loadSubCategories(this);
+            var obj = new Object();
+            obj.i = 4;
+            obj.e = catList[cat].value[0];
+            var jsonString = JSON.stringify(obj);
+
+            loadData(jsonString, loadSubCategories);
+//            loadSubCategories(catList[cat].value[0]);
         };
 
-        clone.appendChild(document.createTextNode(catList_new[cat].value[1]));
+        clone.appendChild(document.createTextNode(catList[cat].value[1]));
         sElem.appendChild(clone);
     }
 }
@@ -88,7 +65,7 @@ function loadHighlights(xhttp) {
                 ["boy_Desc", "boy", "$$"],
                 ["man_Desc", "man", "$$$$"],
                 ["women_Desc", "women", "$$$$$"]],
-	    highList_new = JSON.parse(xhttp.responseText);
+            highList_new = JSON.parse(xhttp.responseText);
 
 
     a.appendChild(d.cloneNode());
@@ -97,7 +74,7 @@ function loadHighlights(xhttp) {
     a.appendChild(d);
 
 
-	pedeCats(createCats); 
+    pedeCats(createCats);
 
     for (highItem in highList) {
         clone = a.cloneNode(true);
@@ -113,6 +90,17 @@ function loadHighlights(xhttp) {
 
 function loadSubCategories(op) {
     console.log(op);
+
+
+
+    var subCat, clone,
+            sElem = document.getElementById("sublist"),
+            s = document.createElement("span"),
+            subCatList = JSON.parse(xhttp.responseText);
+
+
+
+
     //var a = document.createElement("span"),
     //  sList = document.getElementById("sublist");
 }

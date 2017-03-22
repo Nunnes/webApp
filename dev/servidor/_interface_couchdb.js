@@ -2,6 +2,7 @@
 
 var nano = require('nano')('http://localhost:5984');
 var db = nano.db.use('categorias');
+
 //var data = { 
 //    name: 'categorias', 
 //    cat: [3,3],
@@ -99,18 +100,19 @@ module.exports = {
  	 db.view('getCats', 'cats', {'key': null, 'include_docs': false}, function(err, body){
 	    if(!err){
 		var rows = body.rows; 
+                console.log(rows);
 		retorno(rows);
 	    }else{
 	console.log(err);
 	}
 	 });
 },
-	getItems : function(retorno){
-	 	 db.view('getItems', 'items', {'key': null, 'include_docs': false}, function(err, body){
+	getSubCats : function(key, retorno){
+	 	 db.view('getsubcat', 'subcat', {'key': key, 'include_docs': false}, function(err, body){
 		    if(!err){
 			var rows = body.rows; //the rows returned
-			//var tipo = rows.doc.tipo;
-			//console.log(tipo);
+			var tipo = rows;
+			console.log(tipo);
 			retorno(rows);
 		    }else{
 		console.log(err);

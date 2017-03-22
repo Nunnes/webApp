@@ -69,7 +69,6 @@ app.all('/j/p.json', function (pedido, resposta) {
     }, 'utf-8');
 });
 
-
 app.get('/c', function (pedido, resposta) {
     var telefone_inteligente = pedido.useragent.isMobile;
     var f = (telefone_inteligente ? "m" : "c") + ".css";

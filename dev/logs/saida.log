@@ -1,164 +1,29 @@
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/Ba6WEp0LElC1oyXZhJQ3h34pNo3EtWwe.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/Ba6WEp0LElC1oyXZhJQ3h34pNo3EtWwe.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/Ba6WEp0LElC1oyXZhJQ3h34pNo3EtWwe.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/Ba6WEp0LElC1oyXZhJQ3h34pNo3EtWwe.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/Ba6WEp0LElC1oyXZhJQ3h34pNo3EtWwe.json'
 url categorias/_design/geral/_view/categorias?key=1
 switch d.i:1
-resposta:[object Object],[object Object],[object Object],[object Object]
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/3E8G4fjXy8dTxw8Ivc3pPPZJVNoXqcxT.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/3E8G4fjXy8dTxw8Ivc3pPPZJVNoXqcxT.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/3E8G4fjXy8dTxw8Ivc3pPPZJVNoXqcxT.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/3E8G4fjXy8dTxw8Ivc3pPPZJVNoXqcxT.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/3E8G4fjXy8dTxw8Ivc3pPPZJVNoXqcxT.json'
-url categorias/_design/geral/_view/categorias?key=1
-switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
 resposta:[object Object],[object Object],[object Object],[object Object]
 url categorias/_design/geral/_view/categorias?key=1
-switch d.i:1
-resposta:[object Object],[object Object],[object Object],[object Object]
+switch d.i:4
+switch d.i:4
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
 url categorias/_design/geral/_view/categorias?key=1
-switch d.i:1
-resposta:[object Object],[object Object],[object Object],[object Object]
-url categorias/_design/geral/_view/categorias?key=1
-switch d.i:1
-resposta:[object Object],[object Object],[object Object],[object Object]
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-url categorias/_design/geral/_view/categorias?key=1
-switch d.i:1
-resposta:[object Object],[object Object],[object Object],[object Object]
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/3ea7hyDz_gxz46V61i-3vjqgFznzKRlS.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/3ea7hyDz_gxz46V61i-3vjqgFznzKRlS.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/3ea7hyDz_gxz46V61i-3vjqgFznzKRlS.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/3ea7hyDz_gxz46V61i-3vjqgFznzKRlS.json'
-[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/3ea7hyDz_gxz46V61i-3vjqgFznzKRlS.json'
-url categorias/_design/geral/_view/categorias?key=1
-switch d.i:1
-resposta:[object Object],[object Object],[object Object],[object Object]
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
-[session-file-store] Deleting expired sessions
+switch d.i:4
+switch d.i:4
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
