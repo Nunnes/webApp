@@ -30,3 +30,3104 @@ switch d.i:4
     key: 'instrumentos',
     value: [ [Object], [Object], [Object], [Object] ] } ]
 resposta:[object Object]
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/ECgDFakl9S3VSCMKswG_yAMJQbJZFA4O.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/ECgDFakl9S3VSCMKswG_yAMJQbJZFA4O.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/ECgDFakl9S3VSCMKswG_yAMJQbJZFA4O.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/ECgDFakl9S3VSCMKswG_yAMJQbJZFA4O.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/ECgDFakl9S3VSCMKswG_yAMJQbJZFA4O.json'
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+switch d.i:4
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+switch d.i:4
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+switch d.i:4
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+switch d.i:4
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #17
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #18
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #19
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #20
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+resposta:[object Object]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #21
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #22
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+undefined
+resposta:[object Object]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #23
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+undefined
+resposta:[object Object]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #24
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #25
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #26
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+undefined
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+undefined
+resposta:[object Object]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #27
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+undefined
+resposta:[object Object]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #28
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+undefined
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+undefined
+resposta:[object Object]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #29
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+error: Forever detected script was killed by signal: SIGKILL
+error: Could not read .foreverignore file.
+error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/servidor/.foreverignore'
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+resposta:[object Object],[object Object],[object Object],[object Object]
+url categorias/_design/geral/_view/categorias?key=1
+switch d.i:4
+Pedidos
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+resposta:[object Object]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #2
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+[session-file-store] Deleting expired sessions
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Barcos
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Camiões
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Camiões
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Camiões
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Camiões
+[]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Barcos
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Barcos
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Barcos
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Caravanas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Barcos
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Motas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+cabanas
+[]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/6sgFjHoQgpLlBl8KhanwX8NeftQqqXDJ.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/6sgFjHoQgpLlBl8KhanwX8NeftQqqXDJ.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/6sgFjHoQgpLlBl8KhanwX8NeftQqqXDJ.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/6sgFjHoQgpLlBl8KhanwX8NeftQqqXDJ.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/6sgFjHoQgpLlBl8KhanwX8NeftQqqXDJ.json'
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+[session-file-store] Deleting expired sessions
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+[session-file-store] Deleting expired sessions
+[session-file-store] Deleting expired sessions
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/qvNp20iOXKdzdO02kfKVyg1I1T19yMeA.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/qvNp20iOXKdzdO02kfKVyg1I1T19yMeA.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/qvNp20iOXKdzdO02kfKVyg1I1T19yMeA.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/qvNp20iOXKdzdO02kfKVyg1I1T19yMeA.json'
+[session-file-store] will retry, error on last attempt: Error: ENOENT: no such file or directory, open '/home/nuno/Projecto_WebApp/webApp/dev/sessoes/qvNp20iOXKdzdO02kfKVyg1I1T19yMeA.json'
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Desporto
+[ { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: 'Desporto',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+instrumentos
+[ { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: 'instrumentos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: null,
+    value: [ 'Veículos', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: null,
+    value: [ 'Imóveis', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27001d43',
+    key: null,
+    value: [ 'Desporto', '' ] },
+  { id: '87451b6238bfb7e21ccf945b27005f15',
+    key: null,
+    value: [ 'instrumentos', '↸' ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Imóveis
+[ { id: '87451b6238bfb7e21ccf945b27001bef',
+    key: 'Imóveis',
+    value: [ [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+url categorias/_design/geral/_view/categorias?key=1
+getSubCats
+Veículos
+[ { id: '87451b6238bfb7e21ccf945b27000f15',
+    key: 'Veículos',
+    value: [ [Object], [Object], [Object], [Object] ] } ]
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #3
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #4

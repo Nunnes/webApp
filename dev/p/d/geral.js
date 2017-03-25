@@ -37,23 +37,23 @@ function loadCategories(xhttp) {
         clone = s.cloneNode(true);
         clone.className = "cat";
         clone.setAttribute("data-id", catList[cat].value[0]);
+        clone.appendChild(document.createTextNode(catList[cat].value[1]));
+        sElem.appendChild(clone);
+        
         clone.onclick = function () {
             var obj = new Object();
             obj.i = 4;
-            obj.e = catList[cat].value[0];
+            obj.e = this.getAttribute("data-id");
             var jsonString = JSON.stringify(obj);
 
             loadData(jsonString, loadSubCategories);
-//            loadSubCategories(catList[cat].value[0]);
         };
 
-        clone.appendChild(document.createTextNode(catList[cat].value[1]));
-        sElem.appendChild(clone);
     }
 }
 
 
-function loadHighlights(xhttp) {
+function loadHighlights(op) {
 
     var highItem, clone,
             a = document.createElement("article"),
@@ -64,8 +64,8 @@ function loadHighlights(xhttp) {
                 ["girl_Desc", "girl", "$$$"],
                 ["boy_Desc", "boy", "$$"],
                 ["man_Desc", "man", "$$$$"],
-                ["women_Desc", "women", "$$$$$"]],
-            highList_new = JSON.parse(xhttp.responseText);
+                ["women_Desc", "women", "$$$$$"]]
+//            highList_new = JSON.parse(xhttp.responseText);
 
 
     a.appendChild(d.cloneNode());
@@ -74,7 +74,7 @@ function loadHighlights(xhttp) {
     a.appendChild(d);
 
 
-    pedeCats(createCats);
+//    pedeCats(createCats);
 
     for (highItem in highList) {
         clone = a.cloneNode(true);
@@ -88,29 +88,51 @@ function loadHighlights(xhttp) {
     }
 }
 
-function loadSubCategories(op) {
-    console.log(op);
+function clearElembyId(id){
+    var sElem = document.getElementById(id);
+    
+    while (sElem.firstChild) {
+        sElem.removeChild(sElem.firstChild);
+    }
+}
+function loadSubCategories(xhttp) {
+    var sElemName = "sublist",
+        subCat, clone,
+            sElem = document.getElementById(sElemName),
+            s = document.createElement("span");
+            subCatListObj = JSON.parse(xhttp.response)[0],
+            subCatList = subCatListObj.value;         
+
+    clearElembyId(sElemName);
+
+    if(sElem.getAttribute("key") === subCatListObj.key){
+        sElem.removeAttribute("key"); 
+        return; 
+    }
+   
+     sElem.setAttribute("key", subCatListObj.key); 
+    
+    for (subCat in subCatList) {
+        clone = s.cloneNode(true);
+        clone.className = "subcat";
+        clone.setAttribute("data-id", subCatList[subCat][0]);
+        
+        clone.appendChild(document.createTextNode(subCatList[subCat][1]));
+        sElem.appendChild(clone);
+
+        clone.onclick = function () {
+            var obj = new Object();
+            obj.i = 4;
+            obj.e = this.getAttribute("data-id");
+            var jsonString = JSON.stringify(obj);
 
 
+        };
 
-    var subCat, clone,
-            sElem = document.getElementById("sublist"),
-            s = document.createElement("span"),
-            subCatList = JSON.parse(xhttp.responseText);
-
-
-
-
-    //var a = document.createElement("span"),
-    //  sList = document.getElementById("sublist");
+    }
 }
 
-
-
-
 loadData('{"i":1 , "e":1}', loadCategories);
-//loadData('{"i":4 , "e":2}', loadHighlights)
-//loadCategories();
-//loadHighlights();
+loadHighlights();
 
 

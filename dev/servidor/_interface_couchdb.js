@@ -100,7 +100,7 @@ module.exports = {
  	 db.view('getCats', 'cats', {'key': null, 'include_docs': false}, function(err, body){
 	    if(!err){
 		var rows = body.rows; 
-                console.log(rows);
+//                console.log(rows);
 		retorno(rows);
 	    }else{
 	console.log(err);
@@ -110,9 +110,11 @@ module.exports = {
 	getSubCats : function(key, retorno){
 	 	 db.view('getsubcat', 'subcat', {'key': key, 'include_docs': false}, function(err, body){
 		    if(!err){
-			var rows = body.rows; //the rows returned
-			var tipo = rows;
-			console.log(tipo);
+//			console.log("getSubCats");
+//                        console.log(key);
+                        
+                        var rows = body.rows; //the rows returned
+//			console.log(rows);
 			retorno(rows);
 		    }else{
 		console.log(err);
