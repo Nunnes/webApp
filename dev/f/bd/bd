@@ -1,0 +1,10 @@
+
+//Insert data
+curl -X POST http://127.0.0.1:5984/categorias/ -d 
+'{	"tipo": ["Imóveis", "icon"], 
+	"subtipo": [["cabanas", "icon"],
+		    ["barracas", "icon"]]}' -H "Content-Type: application/json"
+
+
+//GET
+curl -X GET http://127.0.0.1:5984/categorias/_all_docs?include_docs=true
