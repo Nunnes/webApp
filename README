@@ -1,28 +1,29 @@
-Prepare environment: 
-1) Install NodeJS 
+Prepare environment:
+1) Install NodeJS
 https://nodejs.org/en/download/
 
 2) Install nodejs packages:
 npm install express-useragent compression serve-favicon express-session session-file-store vhost forever
 
 
-3) Install Netbeans:
-- html5 webkit  
+3.1) Install Netbeans:
+- html5 webkit
 - http://plugins.netbeans.org/plugin/36653/nodejs
 
+3.2)Install other: Atom, VSCode, Brackets
 
-Optional: 
+Optional:
 ->Pode ser necessário:
 	npm install express-useragent --save
 	npm install forever --global
- 
+
 Linux: create link
-This is because things installed via npm want the Node.JS interpreter to be named "node" while the version installed by apt is named "nodejs"	
+This is because things installed via npm want the Node.JS interpreter to be named "node" while the version installed by apt is named "nodejs"
 ->link between node and nodejs: sudo ln -s /usr/bin/nodejs /usr/local/bin/node
 
 Pacages or jars used for copression:
 1) YUI Compressor - http://yui.github.io/yuicompressor/ : comprimir javaScript
-sudo apt-get install yui-compressor 
+sudo apt-get install yui-compressor
 
 2) htmlcompressor-1.5.3.jar: comprimir html
 
@@ -38,7 +39,7 @@ path = ./webApp/dev
 
 /logs
 
-/p => Public: pasta publica 
+/p => Public: pasta publica
 - /c -> css
 - /d -> Diversos: principal.html, geral.js
 - /i -> imagens

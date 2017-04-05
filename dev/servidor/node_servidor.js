@@ -1,4 +1,3 @@
-/* global global, __dirname */
 var useragent = require('express-useragent'),
         express = require('express'),
         sessao = require('express-session'),
@@ -10,7 +9,6 @@ var useragent = require('express-useragent'),
 
 //global.querystring = require('querystring');
 global.fs = require("fs");
-//global.liv = require('./_liv');
 global.db = require('./_interface_couchdb');
 
 //global.zlib = require('zlib');
@@ -19,6 +17,19 @@ app.disable('x-powered-by');
 app.use(compression());
 app.use(useragent.express());
 
+/*app.use(function (req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With");
+    res.header("Access-Control-Allow-Methods", "GET, PUT, POST");
+    if ('OPTIONS' === req.method) {
+        res.status(204).send();
+    }
+    else {
+        next();
+    }
+});*/
+
+//YUI-COMPRESSOR: does not like express.static
 app.use(favicon(__dirname + "./../r/favicon.ico"));
 app.use(express.static(__dirname + "./../r", {maxAge: global.cfg.diasCache}));
 app.use("/p/d", express.static(__dirname + "/../p/d", {maxAge: global.cfg.diasCache}));
@@ -43,9 +54,8 @@ app.use(sessao({
 app.get('/', function (pedido, resposta) {
     resposta.header("Cache-Control", "max-age=" + global.cfg.diasCache + " , public");
     resposta.sendFile('principal.html', {root: __dirname + "/../p/d/"});
-    
-});
 
+});
 
 app.all('/j/p.json', function (pedido, resposta) {
     var corpo = '';
@@ -54,7 +64,7 @@ app.all('/j/p.json', function (pedido, resposta) {
     if (!global.conteudo_sessao.autenticacao) {
         global.conteudo_sessao.autenticacao = {"sid": null, "utilizador": null};
     }
-    
+
     pedido.on('data', function (dados) {
         corpo += dados;
         if (corpo.length > 1e6) {

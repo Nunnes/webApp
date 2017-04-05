@@ -1,12 +1,11 @@
 {
-   "uid": "ubuntu_s1",
-   "append": true, 
+   "uid": "webApp",
+   "append": true,
    "watch": true,
    "fifo": true,
    "script": "node_arranque.js",
-   "sourceDir": "/home/nuno/Projecto_WebApp/webApp/otimizado/servidor/",
-   "logFile": "/home/nuno/Projecto_WebApp/webApp/otimizado/logs/forever.log",      
-   "outFile": "/home/nuno/Projecto_WebApp/webApp/otimizado/logs/saida.log",
-   "errFile": "/home/nuno/Projecto_WebApp/webApp/otimizado/logs/erro.log"
-   
+   "sourceDir": "/home/pi/Public/webApp/servidor/",
+   "logFile": "/home/pi/Public/webApp/logs/forever.log",
+   "outFile": "/home/pi/Public/webApp/logs/saida.log",
+   "errFile": "/home/pi/Public/webApp/logs/erro.log"
 }

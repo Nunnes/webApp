@@ -9,7 +9,6 @@ header {
     height: 150px;
     text-align: center;
     border-bottom: 2px solid #bb291a;
-
 }
 
 header img {
@@ -20,7 +19,7 @@ header h1 {
     /*border-bottom: 3px solid #eee;*/
     padding-top: 5px;
     color: #f2ede7;
-    margin:0px;
+    margin: 0px;
 }
 
 body {
@@ -30,7 +29,7 @@ body {
     margin: 0px auto;
 }
 
-body > h1 {
+body>h1 {
     font-family: Georgia, serif;
     font-size: 30px;
     text-align: center;
@@ -47,12 +46,15 @@ footer {
     width: 100%;
 }
 
-body > article{
-    display: inline-block;
+#article {
     text-align: center;
+    display: block;
+    width: 100%;
 }
 
-article {
+#articlelist>article {
+    display: inline-block;
+    text-align: center;
     margin: 10px;
     border: 1px solid transparent;
     background-color: #ececef;
@@ -64,27 +66,27 @@ article {
     text-overflow: ellipsis;
 }
 
-article:hover {
+#articlelist>article:hover {
     border: 1px solid #bb291a;
     /*box-shadow: 0 0 3pt 2pt #E5C100;*/
     opacity: 1;
 }
 
-article h3 {
+#articlelist>article h3 {
     margin: 0px 0px 0px 5px;
 }
 
-article span {
+#articlelist>article span {
     position: relative;
     top: 135px;
 }
 
-body > article > div {
+#articlelist>article>div {
     height: 132px;
     width: 170px;
 }
 
-body > article > div:first-child article div:hover {
+#articlelist>article>div:first-child article div:hover {
     border-color: #e6e6e6;
 }
 
@@ -104,14 +106,16 @@ body > article > div:first-child article div:hover {
     display: inline-block;
 }
 
-.cat, .subcat:hover {
+.cat,
+.subcat:hover {
     border: 1px solid #bb291a;
     /*box-shadow: 0 0 3pt 2pt #E5C100;*/
     opacity: 1;
     cursor: pointer;
 }
 
-.cat, .subcat:active{
+.cat,
+.subcat:active {
     transform: translateY(2px);
 }
 
@@ -121,8 +125,6 @@ body > article > div:first-child article div:hover {
     height: 50px;
     font-size: 30px;
     border-radius: 25px;
-    
-    
     font-family: glyphs;
     text-align: center;
     color: black;
@@ -133,9 +135,15 @@ body > article > div:first-child article div:hover {
     display: inline-block;
 }
 
-#catlist, #sublist {
-    min-height: 50px;
+
+#catlist{
+  padding: 10px 0px 10px 0px;
+  background-color: #e4e4e4;
+  text-align: center;
+}
+
+#sublist {
     text-align: center;
+    min-height: 56px;
     margin: 10px auto;
-     
 }

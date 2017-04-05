@@ -1,23 +1,11 @@
 /* global this */
 
-var nano = require('nano')('http://localhost:5984');
-var db = nano.db.use('categorias');
-
-//var data = { 
-//    name: 'categorias', 
-//    cat: [3,3],
-//    subcat: [[2,2],[3,3],[4,4],[4,4]] 
-//};
-//
-//db.insert(data, 'unique_id', function(err, body){
-//  if(!err){
-//    //awesome
-//  }
-//});
+var nano = require('nano')('http://localhost:5984'),
+db = nano.db.use('categorias');
 
 $ = require("./_liv");
 
-/* 
+/*
  * Lida com os pedidos entre o servidor e o CouchDB
  */
 module.exports = {
@@ -99,7 +87,7 @@ module.exports = {
 	getCats : function(retorno){
  	 db.view('getCats', 'cats', {'key': null, 'include_docs': false}, function(err, body){
 	    if(!err){
-		var rows = body.rows; 
+		var rows = body.rows;
 //                console.log(rows);
 		retorno(rows);
 	    }else{
@@ -108,13 +96,11 @@ module.exports = {
 	 });
 },
 	getSubCats : function(key, retorno){
-	 	 db.view('getsubcat', 'subcat', {'key': key, 'include_docs': false}, function(err, body){
+	 	 db.view('getCats', 'subcat', {'key': key, 'include_docs': false}, function(err, body){
 		    if(!err){
-//			console.log("getSubCats");
-//                        console.log(key);
-                        
-                        var rows = body.rows; //the rows returned
-//			console.log(rows);
+
+
+    var rows = body.rows; //the rows returned
 			retorno(rows);
 		    }else{
 		console.log(err);

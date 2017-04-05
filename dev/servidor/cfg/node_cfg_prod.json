@@ -2,7 +2,7 @@
     "porta":80,
     "producao": false,
     "endereco_testes": "nunnes00@gmail.com",
-    "dir_raiz": "/home/nuno/Projecto_WebApp/webApp",
+    "dir_raiz": "/home/pi/Public/webApp",
     "url": "baapp.duckdns.org",
     "diasCache": 0,
     "diretorioLogs": "/../logs/",
